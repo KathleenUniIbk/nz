@@ -216,15 +216,15 @@ for(let i=0; i<STOPS.length; i++) {
   console.log(STOPS[i], STOPS[i].title);
   //Marker zeichnen
 let marker = L.marker([STOPS[i].lat, STOPS[i].lng]).addTo(map);
-}
-
 
 //Popup definieren und öffnen
 marker.bindPopup(`
-      <h2>${stop.title}</h2>
-      <ul> 
-      <li>Geogr. Breite: ${stop.lat.toFixed(5)}° </li>
-      <li>Geogr. Länge: ${stop.lng.toFixed(5)}° </li>
-      </ul>
-      `).openPopup();
+  <h2>${STOPS[i].title}</h2>
+  <ul> 
+  <li>Geogr. Breite: ${STOPS[i].lat.toFixed(5)}° </li>
+  <li>Geogr. Länge: ${STOPS[i].lng.toFixed(5)}° </li>
+  </ul>
+  `).openPopup();
+}
+
 
