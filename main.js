@@ -237,5 +237,8 @@ if(STOPS[i].user == "Kathleenuniibk") {
 let option = document.createElement ("option")
 option.value = STOPS [i].user;
 option.text = STOPS [i].title;
+if(STOPS[i].user == "Kathleenuniibk") {
+  option.selected = true;
+}
 document.querySelector("#pulldown select").appendChild(option);
 }
