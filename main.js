@@ -13,7 +13,7 @@ let stop = {
 
 const STOPS = [
   {
-      nummer: 1,
+      nr: 1,
       lat: -34.423889,
       lng: 172.6775,
       zoom: 13,
@@ -25,7 +25,7 @@ const STOPS = [
       title: "Bay of Islands",
       user: "Ellinnaa",
       lat: -35.183333,
-      long: 174.166667,
+      lng: 174.166667,
       zoom: 11,
   },
   {
@@ -39,7 +39,7 @@ const STOPS = [
   {
       nr: 4,
       title: "Cormandel Peninsula",
-      usr: "Gregorysprenger2001",
+      user: "Gregorysprenger2001",
       lat: -37.882778,
       lng: 175.636667,
       zoom: 11,
@@ -120,9 +120,9 @@ const STOPS = [
       nr: 16,
       title: "Wanaka",
       user: "lizzie2911",
-      lat: lat,
-      lon: lon,
-      zoom: zoom,
+      lat: -44.7,
+      lon: 169.15,
+      zoom: 11,
   },
   {
       nr: 17,
