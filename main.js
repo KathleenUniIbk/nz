@@ -211,6 +211,11 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
 
+//Maßstab
+L.control.scale({
+    imperial: false,
+}).addTo(map);
+
 //loop über Etappen
 for(let i=0; i<STOPS.length; i++) {
   console.log(STOPS[i], STOPS[i].title);
